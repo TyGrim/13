@@ -1,14 +1,9 @@
+import Invitation from './Components/Invitation/Invitation';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        
-        <p>
-          Edit N' reload.
-        </p>
-
-      </header>
+        <Invitation />
     </div>
   );
 }
