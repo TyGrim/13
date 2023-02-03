@@ -2,10 +2,11 @@ import styles from "./Invitation.module.css";
 import React from "react";
 
 const ticketData = {
-    title: "Creepy Friday the 13th Event",
-    heading: "A Night of Terror and Delight",
-    paragraph: "Join us for a spooky evening at the speakeasy. Dress to impress in your best Friday the 13th attire and be prepared for a night of terror and delight. Limited tickets available, so get yours now before they're gone!"
+    title: "Your presence is required October, Friday the 13th.",
+    heading: "Bear witness as two souls make 'The Unbreakable Vow'. Celebrate them in their quest to love & be loved for eternity.",
+    paragraph: "The stars are aligning, & fate will guide us into the Unknown. Listen closely as the union of 2 hearts beating as one, amidst a hint of eerie elegance."
 };
+
 const Invitation = () => { 
     return (
             <div className={styles.cardContainer}>
